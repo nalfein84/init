@@ -12,4 +12,14 @@ public class Calc {
 		else return 1000;
 	}
 
+	public String getRoman(int i) {
+		if (i==1) return "I";
+		else if (i==10) return "X";
+		else if (i==5) return "V";
+		else if (i==100) return "C";
+		else if (i==50) return "L";
+		else if (i==500) return "D";
+		else return "M";
+	}
+
 }
